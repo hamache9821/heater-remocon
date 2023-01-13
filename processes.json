@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "heater-remocon",
+      "script": "main.js",
+      "node_args" : "",
+      "error_file": "/usr/local/var/log/heater-remocon.stderr.log",
+      "out_file": "/usr/local/var/log/heater-remocon.stdout.log",
+      "merge_logs": true,
+      "pid_file": "/usr/local/var/run/heater-remocon.pid",
+      "exec_mode": "fork",
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "default",
+        "LOG_STDOUT": "/usr/local/var/log/heater-remocon.stdout.log",
+        "LOG_STDERR": "/usr/local/var/log/heater-remocon.stderr.log"
+      }
+    }
+  ]
+}
