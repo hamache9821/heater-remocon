@@ -10,7 +10,7 @@
         {
             "type" : 11
           , "gpio" : 18
-          , "read_interval" : 1000
+          , "read_interval" : 5000
         }
     , "heater": 
         {

@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hamache9821/heater-remocon.git"
+    "url": "git+https://git@github.com/hamache9821/heater-remocon.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "hamache9801",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hamache9821/heater-remocon/issues"
