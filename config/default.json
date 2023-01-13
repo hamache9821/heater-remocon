@@ -1,0 +1,26 @@
+{
+     "switch_gpio" : 
+        {
+            "power" : 4
+          , "ext3h" : 22
+          , "up"    : 6
+          , "down"  : 26
+        }
+    , "sensor" :
+        {
+            "type" : 11
+          , "gpio" : 18
+          , "read_interval" : 1000
+        }
+    , "heater": 
+        {
+            "temp_min" : 13
+          , "temp_max" : 30
+          , "temp_default" : 20
+          , "auto_extend" : true
+          , "auto_extend_interval" : 120
+          , "initial_wait": 800
+          , "count_interval": 200
+        }
+    , "listen_port" : 8080
+}
